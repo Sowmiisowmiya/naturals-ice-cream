@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    padding: 3%;
+}
+.search{
+    margin: 1%;
+    position: relative;
+}
+.search input{
+     width: 50%;
+     font-size: 100%;
+     padding: 2% 3%;
+     background-color: rgb(199, 191, 191);
+     border: none;
+}
+input,i{
+    border: 2px solid;padding: 2%;background-color: rgb(7, 219, 7);
+}
+nav{
+    background-color: rgb(53, 52, 52);color: aliceblue;height: 12%;text-align: center;
+}
+h3:hover{
+    color: green;
+}
+dl{
+    position:relative;
+    visibility: hidden;color: antiquewhite;
+    
+}
+dd{
+    padding: 1%;
+}
+.mango:hover dl{
+    visibility: visible;
+}
+.hover:hover{
+     color: rgb(16, 238, 71);
+ }
+ .mango{
+    display: inline-block;text-align: center;
+    border: 2px solid white;height: 60%;
+    background-color: white;
+ }
+ .mango img:hover{
+    zoom: 95%;
+ }
+ .d3 img:hover{
+    zoom: 95%;
+ }
+ .phone{
+    color: white;
+    border: none;
+ }
+ .prg{
+    
+    padding: 5%;
+    height: 43%;
+    background-color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+ }
+ .d5{
+    background-color: rgb(3, 173, 3);
+     padding: 5%;
+     text-align: center;
+     
+}
+.foot{
+    background-color: #535353;
+     color: white;width: 86%;line-height: 30px;padding: 7%;height: 900;
+     
+}
+.contact{
+   float: left;
+}
+.ABOUT{
+    float: left;margin:0% 5%;
+}
+.other{
+    float: left;margin:0% 8%;
+}
+.shop{
+    float: left;margin:0% 5%;
+}
+.you i{
+    color: rgb(241, 245, 245); background-color: black;
+    padding: 15px;border-radius: 50%;
+    margin: 10% 0% 0% 0%;
+
+}
+.you i:hover{
+    background-color: rgb(248, 247, 248); color: rgb(6, 201, 65); padding: 15px;
+    transform: translateY(-15%);
+  
+}
+
+
+@media only screen and (max-width: 840px){
+    body{
+        width: 100%;
+    }
+    footer{
+         height: 100%;
+         width: 100%;
+    }
+        
+    }
+
+
+    
+
+
